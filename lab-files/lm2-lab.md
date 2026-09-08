@@ -30,3 +30,18 @@ Corrected Command:
   
   # Observed Difference
   Verbose output showed the main steps and status of the script without stoping it. Debug output provide more technical details about the commands being processed and paused the script for conformation. Debug was more useful for closely troubleshooting hpw the script was running.
+
+
+
+  # Task 3: PEster Test
+
+  Test name:
+  `Verifies that the resource group was created`
+
+  Expected results:
+
+  The test should find the PelinLM2DebugRG resource group in azure and confrim that its name matches the expected resource group name
+
+  Actual Result:
+
+  The test passed successfully. Pester reported 1 test passed and 0 test failed.
