@@ -32,3 +32,13 @@ Successfully created: 0 (tested using WhatIf)
 Warnings generated: 0
 
 The function successfully processed all five project IDs.
+
+# Task 6 - Execution Statistics 
+I added counters to track the function execution.
+
+Total Processed: 5
+Resources Created: 0
+Resources Skipped: 5
+Errors Encountered: 0
+
+The resources were skipped because I tested the function using WhatIf.
