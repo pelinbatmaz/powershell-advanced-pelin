@@ -1,4 +1,4 @@
-# LM2: Testing, Debugging and Soruce Control
+# LM4: Enterprise Function Desing and Scalability 
 
 # Project Purpose 
 The purpose of this project is to create and improve a PowerShell advanced function for managing Azure resource groups. The function now supports parameter sets, pipeline input, WhatIf, verbose messages, bulk processing, and execution statistics.
