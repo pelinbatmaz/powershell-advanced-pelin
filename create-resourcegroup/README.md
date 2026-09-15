@@ -1,15 +1,16 @@
 # LM2: Testing, Debugging and Soruce Control
 
 # Project Purpose 
-The purpose of this projecet was to practice troubleshooting PowerShell errors, add verbose and debug output to a script, and use Pester to test an Azure resource group. The project also demonstrates how Git and GitHub can track changes to PowerShell files.
+The purpose of this project is to create and improve a PowerShell advanced function for managing Azure resource groups. The function now supports parameter sets, pipeline input, WhatIf, verbose messages, bulk processing, and execution statistics.
 
 # Files Included
-- `create-resourcegroup.ps1` -Creates an Azure resource group and displays verbose and debug information.
-- `create-resourcegroup.test.ps1` -Uses Pester to verify that the Azure resource group exists
-- `Create-resourcegroup-transcript.txt` -Records the output produced when the PowerShell script runs
-- `lm2-lab.md` -Documents the command error, debugging output, and Pester test results
-- `README.md` -Explains the purpose and contents of the LM2 project.
+- `create-resourcegroup.ps1` -Contains the New-TestResourceGroup advanced function.
+- `create-resourcegroup.test.ps1` -Uses Pester to test the function.
+- `ResourceGroupTest` -Contains project IDs used for bulk processing.
+- `Create-resourcegroup-transcript.txt` -Records PowerShell execution output.
+- `lm4-lab.md` -Documents the LM4 lab work and result.
+- `README.md` -Explains the project and its files.
 
 
 # Lessons Learned
-I learned how verbose output shows the progress of a script and how debug output provides more detailed troubleshooting information. I also learned how to create a basic Pester test and use GitHub to keep a history of changes to a project.
+I learned how to turn a PowerShell script into a more advanced function. I added parameter sets, pipeline support, WhatIf, verbose messages, bulk processing, and execution statistics. These features make the function easier and safer to use when managing multiple Azure resources.
