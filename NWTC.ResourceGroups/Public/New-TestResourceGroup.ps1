@@ -16,6 +16,11 @@ Specifies a project ID and creates the resource group name using rg-ProjectID.
 .PARAMETER Tags
 Specifies tags for the resource group.
 
+.NOTES
+Author: Pelin Batmaz
+Version: 1.0
+Date: September 22, 2026
+
 .EXAMPLE
 New-TestResourceGroup -ResourceGroupName "PelinLM4RG" -WhatIf
 
