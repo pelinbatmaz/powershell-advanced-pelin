@@ -45,8 +45,8 @@ begin {
     $ResourcesSkipped = 0
     $ErrorsEncountered = 0
 
-    $TranscriptPath = Join-Path $PSScriptRoot  "..\output\Create-resourcegroup-transcript.txt"
-    Start-Transcript -Path $TranscriptPath -Append
+    $LogFilePath ="$PSScriptRoot\..\Logs\New-TestResourceGroup-Log-$(Get-Date -Format 'yyyyMMdd-HHmmss').txt"
+    Write-ModuleLog -Message "Starting the creation of Resource Group..." -Level INFO -LogFile $LogFilePath
 }
 process {
     $TotalProcessed++
@@ -96,6 +96,7 @@ end{
     Write-Host "Resources Skipped: $ResourcesSkipped"
     Write-Host "Errors Encountered: $ErrorsEncountered"
     Write-Host "Script completed."
-    Stop-Transcript
+    
+    Write-ModuleLog -Message "Finished processing the creation of Resource Group." -Level INFO -LogFile $LogFilePath
 }
 }
