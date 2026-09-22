@@ -14,3 +14,8 @@ The purpose of this project is to create and improve a PowerShell advanced funct
 
 # Lessons Learned
 I learned how to turn a PowerShell script into a more advanced function. I added parameter sets, pipeline support, WhatIf, verbose messages, bulk processing, and execution statistics. These features make the function easier and safer to use when managing multiple Azure resources.
+
+
+# LM5 Update
+
+For LM5, I converted New-TestResourceGroup into the NWTC.ResourceGroups PowerShell module. The function now uses a private Write-ModuleLog helper for logging and was tested with ResourceGroupName, ProjectID, pipeline input, multiple values, and WhatIf.
