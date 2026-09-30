@@ -36,3 +36,10 @@ Created CHANGELOG.md to document the module version history and changes between 
 # Task 5 - Release Notes
 
 Created RELEASENOTES.md to explain the new features, upgrade instructions, bug fixes, and known issues for version 1.1.0.
+
+
+# Task 6 - Test the Upgrade
+
+Imported the updated NWTC.ResourceGroups module and verified that version 1.1.0 loaded successfully.
+
+Confirmed the exported commands with Get-Command and tested Get-ResourceGroupSummary successfully.
