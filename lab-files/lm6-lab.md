@@ -32,3 +32,7 @@ This is a minor version update because a new feature was added without breaking 
 
 Created CHANGELOG.md to document the module version history and changes between releases.
 
+
+# Task 5 - Release Notes
+
+Created RELEASENOTES.md to explain the new features, upgrade instructions, bug fixes, and known issues for version 1.1.0.
