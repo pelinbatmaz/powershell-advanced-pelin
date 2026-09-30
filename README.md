@@ -18,3 +18,13 @@ The module includes:
 - Documentation and testing
 
 The module files are located in the NWTC.ResourceGroups folder.
+
+# LM6 Update
+
+The NWTC.ResourceGroups module was updated to version 1.1.0
+
+Changes include:
+- Added Get-ResourceGroupSummary
+- Added changelog and release notes
+- Tested the updated module
+- Packaged version 1.1.0 for distribution
