@@ -19,3 +19,16 @@ I learned how to turn a PowerShell script into a more advanced function. I added
 # LM5 Update
 
 For LM5, I converted New-TestResourceGroup into the NWTC.ResourceGroups PowerShell module. The function now uses a private Write-ModuleLog helper for logging and was tested with ResourceGroupName, ProjectID, pipeline input, multiple values, and WhatIf.
+
+
+
+# LM6 Update
+
+The NWTC.ResourceGroups module was updated to version 1.1.0
+
+Changes include:
+- Added Get-ResourceGroupSummary
+- Added changelog and release notes
+- Tested the updated module
+- Packaged version 1.1.0 for distribution
+

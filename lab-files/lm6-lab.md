@@ -43,3 +43,10 @@ Created RELEASENOTES.md to explain the new features, upgrade instructions, bug f
 Imported the updated NWTC.ResourceGroups module and verified that version 1.1.0 loaded successfully.
 
 Confirmed the exported commands with Get-Command and tested Get-ResourceGroupSummary successfully.
+
+
+# Task 7 - Publish and Distribute 
+
+Updated the READMEs.
+
+Created the Relases folder and packaged version 1.1.0 as NWTC.ResourceGroups1.1.0.zip for distribution.
