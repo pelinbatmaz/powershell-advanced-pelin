@@ -9,3 +9,26 @@ Description: Test resource group creation
 
 Exported Commands:
 - New-TestResourceGroup
+
+# Task 2 - New Feature
+Created a new public function called Get-ResourceGroupSummary
+
+The function displays:
+- Resource Group Name
+- Location
+- Tags
+
+I tested the module with Get-Command and confirmed that Get-ResourceGroupSummary is included in the module
+
+
+# Task 3 - Version Update
+
+Updated module version from 1.0.0 to 1.1.0
+
+This is a minor version update because a new feature was added without breaking the existing functionality.
+
+
+# Task 4 - Changelog
+
+Created CHANGELOG.md to document the module version history and changes between releases.
+
