@@ -48,3 +48,12 @@ Result: PelinBaseline configuration was applied succesfully. DSC installed the T
 Test-DscConfiguration returned True, showing that the system is compliant with the desired configuration.
 
 Get-DscConfiguration showed that PelinBaseline is active and the Telnet Client feature is present.
+
+
+# Task 6 - Expand the Baseline
+
+Second Resource:
+File BaselineFolder
+
+Result:
+I added a second resource that creates the C:\PelinBaseline folder. I recompiled and redeployed the configuration successfully with both resources.
