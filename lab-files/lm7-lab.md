@@ -37,3 +37,8 @@ The MOF file contains the compiled DSC configuration that PowerShell uses to app
 
 Information Observed:
 The MOF file contains the configuration for localhost and the WindowsFeature resource for Telnet Client.
+
+
+# Task 4 - Apply the Configuration
+
+Result: PelinBaseline configuration was applied succesfully. DSC installed the Telnet Client Windows feature and the installation succeeded.
