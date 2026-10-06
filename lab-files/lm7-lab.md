@@ -42,3 +42,9 @@ The MOF file contains the configuration for localhost and the WindowsFeature res
 # Task 4 - Apply the Configuration
 
 Result: PelinBaseline configuration was applied succesfully. DSC installed the Telnet Client Windows feature and the installation succeeded.
+
+# Task 5 - Validate Compliance
+
+Test-DscConfiguration returned True, showing that the system is compliant with the desired configuration.
+
+Get-DscConfiguration showed that PelinBaseline is active and the Telnet Client feature is present.
