@@ -12,3 +12,28 @@ Resource 1: File AutomationFolder
 Resource 2: File ConfigFile
 - Creates C:\Automation\Config.txt with the test "NWTC Standard Configuration" 
 - It depens on AutomationFolder, so the folder is created before the file.
+
+# Task 2 - My DSC Configuration
+
+Configuration Name:
+PelinBaseline
+
+Node:
+localhost
+
+Resource:
+WindowsFeature - TelnetClient
+
+What It Does:
+This configuration makes sure the Telnet Client Windows feature is installed on the system.
+
+# Task 3 - MOF File
+
+File Location:
+C:\powershell-advanced-pelin\DSC\PelinBaseline\localhost.mof
+
+File Purpose:
+The MOF file contains the compiled DSC configuration that PowerShell uses to apply the desired settings.
+
+Information Observed:
+The MOF file contains the configuration for localhost and the WindowsFeature resource for Telnet Client.
